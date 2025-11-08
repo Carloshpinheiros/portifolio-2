@@ -1,0 +1,41 @@
+body {
+  overflow-y: scroll; /* força a barra de rolagem vertical */
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+  justify-content: center; 
+  height: 100vh;           
+  margin: 0;
+  background-image: url(cyber.webp); 
+  margin-top: 5%;
+   
+
+}
+
+.plan {
+  font-size: large;
+  width: 60vw;             
+  color: black;
+  text-align: center;      
+  padding: 20px;
+  background-color: #09ff00;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #09ff00;
+}
+
+.h{
+    color: aliceblue;
+}
+
+.return img{
+    width: 60px; 
+border-radius: 4vh;
+}
+
+.return{
+    margin-left: 4%;  
+ width: 90px; 
+ height: auto;
+border-radius: 10vh;
+ margin-top: -9vh;
+}
